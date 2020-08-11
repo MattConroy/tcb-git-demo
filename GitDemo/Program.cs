@@ -10,6 +10,9 @@ namespace GitDemo
 
             foreach (var arg in args)
                 Console.WriteLine(arg);
+
+            Console.WriteLine("Waiting for input...");
+            Console.ReadKey();
         }
     }
 }
